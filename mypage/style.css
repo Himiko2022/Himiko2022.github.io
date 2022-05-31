@@ -1,0 +1,14 @@
+html,body{
+  color: #262626;
+}
+
+.carousel img{
+  width:100%;
+  height: 100%;
+}
+
+footer{
+  background-color: #F1F1F1;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
