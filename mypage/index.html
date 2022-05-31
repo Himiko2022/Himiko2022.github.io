@@ -10,32 +10,34 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">-->
     <!-- Option 1: Bootstrap Bundle with Popper-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 JavaScript 文件
+<!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 JavaScript 文件
     <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>-->
     <!--css样式-->
     <link href="style.css" rel="stylesheet">
 
-    <title>Himiko in the World - My FootPrint</title>
+    <title>Himiko in the World</title>
   </head>
   <body>
     <!--导航栏-->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
   <div class="container-fluid">
-    <!--#就是虚假的链接-->
-    <a class="navbar-brand" href="#"><img src="img/dog.png" width="70"> My Footprint</a>
+    <a class="navbar-brand" href="index.html"><img src="img/dog.png" width="70"> Himiko in the World</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Display</a>
+          <a class="nav-link" href="index3.html">Travel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index2.html">Work</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Services
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -44,9 +46,6 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Contact me</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -62,25 +61,74 @@
 <div class="container-fluid">
   <div class="row text-center">
     <div class="col-12">
-      <h1 >Welcome to my page</h1>
+      <h1>Welcome to my page</h1>
     </div>
+    <br>
     <div class="col-12">
-      <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+      <p class="lead">Here we are! This is a website i wrote in the very last day of May, 2022. It's a simple website bulit by Bootstrap. </p>
     </div>
   </div>
 </div>
 <br>
 <!--左右分栏-->
-<div class="container-fluid">
+<div class="container-fluid bg-$gray-200">
   <div class="row">
     <div class="col-md-5">
-      <img src="img/7.jpg" class="img-fluid">
+      <img src="img/me.jpg" class="img-fluid">
     </div>
     <div class="col-md-7">
-      <h2>Type Something Here</h2>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <br>
+      <h2><small class="text-muted">Hi, This is </small>me</h2>
+      <p>I was spending the first day of 2022 with my friends and fireworks.</p>
+      <p>To keep shining memory like that, i plan to store and display some pics or videos in Travel page.</p>
+      <figure>
+  <blockquote class="blockquote">
+    <p>A well-known quote. Life is a journey.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">Says me.</figcaption>
+</figure>
+      <p>For another page named Work page, i would like to put anything fancy i made on just to remind me what i've done in my college life :)</p>
+      <br>
+      <div class="d-grid gap-2">
+  <button class="btn btn-primary bg-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Approve</button>
+  <button class="btn btn-primary bg-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">Disapprove</button>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Yeah~</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Thanks for your support！May the fortune be with you.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">What...</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Why? U tore my heart apart......
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Leave</button>
+          <button type="button" class="btn btn-primary">Fine</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
   </div>
 <hr class="my-4">
@@ -134,6 +182,28 @@
 <br>
 <br>
 
+<!--图标
+<div class="container-fluid">
+  <div class="row text-center">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <img src="img/dog.png"></img>
+      <h3>story1</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <img src="img/dog.png"></img>
+      <h3>story2</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <img src="img/dog.png"></img>
+      <h3>story3</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+  </div>
+  <hr class="my-4">
+</div>-->
+
 <!--卡片-->
 <div class="container-fluid">
   <div class="row text-center">
@@ -147,62 +217,33 @@
   <div class="row">
     <div class="col-md-4">
 <div class="card" >
-  <img src="img/dog.png" class="card-img-top" alt="...">
+  <a href="index2.html"><img src="img/dog.png" class="card-img-top" alt="..."></a>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Coming up...</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
 </div>
 <div class="col-md-4">
 <div class="card" >
-<img src="img/dog.png" class="card-img-top" alt="...">
+<a href="index2.html"><img src="img/dog.png" class="card-img-top" alt="..."></a>
 <div class="card-body">
-<h5 class="card-title">Card title</h5>
+<h5 class="card-title">Coming up...</h5>
 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 </div>
 </div>
 </div>
 <div class="col-md-4">
 <div class="card" >
-<img src="img/dog.png" class="card-img-top" alt="...">
+<a href="index2.html"><img src="img/dog.png" class="card-img-top" alt="..."></a>
 <div class="card-body">
-<h5 class="card-title">Card title</h5>
+<h5 class="card-title">Coming up...</h5>
 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 </div>
 </div>
 </div>
 </div>
 <br>
-<div class="row">
-  <div class="col-md-4">
-<div class="card" >
-<img src="img/dog.png" class="card-img-top" alt="...">
-<div class="card-body">
-  <h5 class="card-title">Card title</h5>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card" >
-<img src="img/dog.png" class="card-img-top" alt="...">
-<div class="card-body">
-<h5 class="card-title">Card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card" >
-<img src="img/dog.png" class="card-img-top" alt="...">
-<div class="card-body">
-<h5 class="card-title">Card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-</div>
-</div>
-</div>
-</div>
 <br>
 </div>
 
@@ -211,7 +252,7 @@
   <div class="container-fluid">
     <div class="row text-center">
       <div class="col-md-3">
-        <img src="img/dog.png">
+        <a href="index.html"><img src="img/dog.png"></a>
         <h6>Himiko in the World</h6>
       </div>
       <div class="col-md-3">
@@ -233,8 +274,7 @@
   </div>
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
   </body>
